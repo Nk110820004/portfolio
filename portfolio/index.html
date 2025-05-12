@@ -3,103 +3,293 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Navneeth Krishna K - Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
     <header>
-        <a href="#" class="logo">NK</a>
-        <nav>
-            <a href="#home" class="active"> Home</a>
-            <a href="#skills" >Skills</a>
-            <a href="#education" >Education</a>
-            <a href="#contact" >Contact</a>
+        <nav class="navbar">
+            <div class="logo">NK</div>
+            <div class="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
         </nav>
     </header>
-    <section class="home" id="home">
-        <div class="home-img">
-            <img src="main.jpg" alt="">
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Hi, It's <span>Navneeth Krishna K</span></h1>
+                <h3 class="typing-text">I'm a <span></span></h3>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/navneethkrishnak-/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Nk110820004" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="resume.pdf" download="Navneeth_Krishna_Resume" class="btn">Download Resume</a>
+            </div>
+            <div class="hero-image">
+                <div class="shape"></div>
+                <img src="main.jpg" alt="Navneeth Krishna K" class="profile-img">
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="section-header">
+                <h2>My Skills</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="skills-container">
+                <div class="skill-item">
+                    <div class="circle" data-percent="90">
+                        <svg class="progress-ring" width="120" height="120">
+                            <circle class="progress-ring-circle-bg" stroke-width="8" cx="60" cy="60" r="50" fill="transparent"></circle>
+                            <circle class="progress-ring-circle" stroke-width="8" cx="60" cy="60" r="50" fill="transparent"></circle>
+                        </svg>
+                        <div class="percent">90%</div>
+                    </div>
+                    <h3>HTML</h3>
+                </div>
+                <div class="skill-item">
+                    <div class="circle" data-percent="85">
+                        <svg class="progress-ring" width="120" height="120">
+                            <circle class="progress-ring-circle-bg" stroke-width="8" cx="60" cy="60" r="50" fill="transparent"></circle>
+                            <circle class="progress-ring-circle" stroke-width="8" cx="60" cy="60" r="50" fill="transparent"></circle>
+                        </svg>
+                        <div class="percent">85%</div>
+                    </div>
+                    <h3>CSS</h3>
+                </div>
+                <div class="skill-item">
+                    <div class="circle" data-percent="80">
+                        <svg class="progress-ring" width="120" height="120">
+                            <circle class="progress-ring-circle-bg" stroke-width="8" cx="60" cy="60" r="50" fill="transparent"></circle>
+                            <circle class="progress-ring-circle" stroke-width="8" cx="60" cy="60" r="50" fill="transparent"></circle>
+                        </svg>
+                        <div class="percent">80%</div>
+                    </div>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill-item">
+                    <div class="circle" data-percent="75">
+                        <svg class="progress-ring" width="120" height="120">
+                            <circle class="progress-ring-circle-bg" stroke-width="8" cx="60" cy="60" r="50" fill="transparent"></circle>
+                            <circle class="progress-ring-circle" stroke-width="8" cx="60" cy="60" r="50" fill="transparent"></circle>
+                        </svg>
+                        <div class="percent">75%</div>
+                    </div>
+                    <h3>C</h3>
+                </div>
+                <div class="skill-item">
+                    <div class="circle" data-percent="75">
+                        <svg class="progress-ring" width="120" height="120">
+                            <circle class="progress-ring-circle-bg" stroke-width="8" cx="60" cy="60" r="50" fill="transparent"></circle>
+                            <circle class="progress-ring-circle" stroke-width="8" cx="60" cy="60" r="50" fill="transparent"></circle>
+                        </svg>
+                        <div class="percent">75%</div>
+                    </div>
+                    <h3>C++</h3>
+                </div>
+            </div>
+            <div class="skills-container">
+                <div class="skill-item">
+                    <div class="circle" data-percent="70">
+                        <svg class="progress-ring" width="120" height="120">
+                            <circle class="progress-ring-circle-bg" stroke-width="8" cx="60" cy="60" r="50" fill="transparent"></circle>
+                            <circle class="progress-ring-circle" stroke-width="8" cx="60" cy="60" r="50" fill="transparent"></circle>
+                        </svg>
+                        <div class="percent">70%</div>
+                    </div>
+                    <h3>Python</h3>
+                </div>
+                <div class="skill-item">
+                    <div class="circle" data-percent="70">
+                        <svg class="progress-ring" width="120" height="120">
+                            <circle class="progress-ring-circle-bg" stroke-width="8" cx="60" cy="60" r="50" fill="transparent"></circle>
+                            <circle class="progress-ring-circle" stroke-width="8" cx="60" cy="60" r="50" fill="transparent"></circle>
+                        </svg>
+                        <div class="percent">70%</div>
+                    </div>
+                    <h3>Java</h3>
+                </div>
+                <div class="skill-item">
+                    <div class="circle" data-percent="65">
+                        <svg class="progress-ring" width="120" height="120">
+                            <circle class="progress-ring-circle-bg" stroke-width="8" cx="60" cy="60" r="50" fill="transparent"></circle>
+                            <circle class="progress-ring-circle" stroke-width="8" cx="60" cy="60" r="50" fill="transparent"></circle>
+                        </svg>
+                        <div class="percent">65%</div>
+                    </div>
+                    <h3>SQL</h3>
+                </div>
+                <div class="skill-item">
+                    <div class="circle" data-percent="60">
+                        <svg class="progress-ring" width="120" height="120">
+                            <circle class="progress-ring-circle-bg" stroke-width="8" cx="60" cy="60" r="50" fill="transparent"></circle>
+                            <circle class="progress-ring-circle" stroke-width="8" cx="60" cy="60" r="50" fill="transparent"></circle>
+                        </svg>
+                        <div class="percent">60%</div>
+                    </div>
+                    <h3>PHP</h3>
+                </div>
+                <div class="skill-item">
+                    <div class="circle" data-percent="75">
+                        <svg class="progress-ring" width="120" height="120">
+                            <circle class="progress-ring-circle-bg" stroke-width="8" cx="60" cy="60" r="50" fill="transparent"></circle>
+                            <circle class="progress-ring-circle" stroke-width="8" cx="60" cy="60" r="50" fill="transparent"></circle>
+                        </svg>
+                        <div class="percent">75%</div>
+                    </div>
+                    <h3>Flutter</h3>
+                </div>
+            </div>
+            <div class="skills-container">
+                <div class="skill-item">
+                    <div class="circle" data-percent="60">
+                        <svg class="progress-ring" width="120" height="120">
+                            <circle class="progress-ring-circle-bg" stroke-width="8" cx="60" cy="60" r="50" fill="transparent"></circle>
+                            <circle class="progress-ring-circle" stroke-width="8" cx="60" cy="60" r="50" fill="transparent"></circle>
+                        </svg>
+                        <div class="percent">60%</div>
+                    </div>
+                    <h3>Machine Learning</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="section-header">
+                <h2>My Projects</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="projects-container">
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Finance Tracker</h3>
+                        <p>A finance tracking application built using Phi Data.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Finance</span>
+                            <span>Data Analysis</span>
+                        </div>
+                        <a href="https://github.com/Nk110820004/finance-tracker-playground-using-phidata" target="_blank" class="project-link">
+                            <i class="fa-brands fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Weather App</h3>
+                        <p>A weather application developed using Dart.</p>
+                        <div class="project-tags">
+                            <span>Dart</span>
+                            <span>Flutter</span>
+                            <span>API</span>
+                        </div>
+                        <a href="https://github.com/Nk110820004/weather-app-using-dart" target="_blank" class="project-link">
+                            <i class="fa-brands fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>ScaleUP</h3>
+                        <p>Business Management & Forecasting Platform using Dart.</p>
+                        <div class="project-tags">
+                            <span>Dart</span>
+                            <span>Business</span>
+                            <span>Forecasting</span>
+                        </div>
+                        <a href="https://github.com/Nk110820004/Code-Eater" target="_blank" class="project-link">
+                            <i class="fa-brands fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Workout Posture Fixer</h3>
+                        <p>A machine learning application to correct workout postures.</p>
+                        <div class="project-tags">
+                            <span>Machine Learning</span>
+                            <span>Computer Vision</span>
+                            <span>Fitness</span>
+                        </div>
+                        <a href="https://github.com/Nk110820004/nexathon" target="_blank" class="project-link">
+                            <i class="fa-brands fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Study Buddy</h3>
+                        <p>A collaborative learning platform for students.</p>
+                        <div class="project-tags">
+                            <span>Web Development</span>
+                            <span>Education</span>
+                            <span>Collaboration</span>
+                        </div>
+                        <a href="https://github.com/Nk110820004/hackathon-3---Copy" target="_blank" class="project-link">
+                            <i class="fa-brands fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="education">
+            <div class="section-header">
+                <h2>Education</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>SRM Institute of Science and Technology</h3>
+                        <p class="timeline-date">Present</p>
+                        <p>Currently pursuing my undergraduate degree at SRM Institute of Science and Technology.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>SBOA Matric and Higher Secondary School</h3>
+                        <p class="timeline-date">11th - 12th Grade</p>
+                        <p>Pursued my 11th and 12th grade at SBOA Matric and Higher Secondary School.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>SBOA School and Junior College</h3>
+                        <p class="timeline-date">LKG - 10th Grade</p>
+                        <p>Completed my education from LKG to 10th grade at SBOA School and Junior College, Anna Nagar.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="contact">
+        <div class="section-header">
+            <h2>Contact Me</h2>
+            <div class="underline"></div>
         </div>
-        <div class="home-content">
-            <h1>Hi, It's <span>Navneeth Krishna K</span></h1>
-            <h3 class="typing-text">I'm a <span></span></h3>
-            <div class="social-icons">
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-github"></i></a>
-            </div>
-            <a href="resume.pdf" download="Navneeth_Krishna_Resume" class="btn">Resume</a>
-        </div>
-    </section>
-    
-    <section class="skills" id="skills">
-        <h2>My Skills</h2>
-        <div class="skills-container">
-            <!-- Row 1 -->
-            <div class="skill-item">
-                <div class="circle" data-percent="90"></div>
-                <h3>HTML</h3>
-            </div>
-            <div class="skill-item">
-                <div class="circle" data-percent="85"></div>
-                <h3>CSS</h3>
-            </div>
-            <div class="skill-item">
-                <div class="circle" data-percent="80"></div>
-                <h3>JavaScript</h3>
-            </div>
-            <div class="skill-item">
-                <div class="circle" data-percent="75"></div>
-                <h3>C</h3>
-            </div>
-            <div class="skill-item">
-                <div class="circle" data-percent="75"></div>
-                <h3>C++</h3>
-            </div>
-        </div>
-        <!-- Row 2 -->
-        <div class="skills-container">
-            <div class="skill-item">
-                <div class="circle" data-percent="70"></div>
-                <h3>Python</h3>
-            </div>
-            <div class="skill-item">
-                <div class="circle" data-percent="70"></div>
-                <h3>Java</h3>
-            </div>
-            <div class="skill-item">
-                <div class="circle" data-percent="65"></div>
-                <h3>SQL</h3>
-            </div>
-            <div class="skill-item">
-                <div class="circle" data-percent="60"></div>
-                <h3>PHP</h3>
-            </div>
-            <div class="skill-item">
-                <div class="circle" data-percent="60"></div>
-                <h3>Machine Learning</h3>
-            </div>
-        </div>
-    </section>
-    <section class="education" id="education">
-        <h2>Education</h2>
-        <div class="education-container">
-            <div class="education-item">
-                <h3>SBOA School and Junior College</h3>
-                <p>Completed my education from LKG to 10th grade at SBOA School and Junior College, Anna Nagar.</p>
-            </div>
-            <div class="education-item">
-                <h3>SBOA Matric and Higher Secondary School</h3>
-                <p>Pursued my 11th and 12th grade at SBOA Matric and Higher Secondary School.</p>
-            </div>
-            <div class="education-item">
-                <h3>SRM Institute of Science and Technology</h3>
-                <p>Currently pursuing my undergraduate degree at SRM Institute of Science and Technology.</p>
-            </div>
-        </div>
-    </section>
-    <footer class="contact" id="contact">
-        <h2>Contact Me</h2>
         <div class="contact-container">
             <div class="contact-item">
                 <i class="fas fa-phone-alt"></i>
@@ -124,41 +314,13 @@
                 <p>Navneeth Krishna K</p>
             </div>
         </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Navneeth Krishna K. All Rights Reserved.</p>
+        </div>
     </footer>
-    <script>
-            document.querySelectorAll('.circle').forEach(circle => {
-        const percent = circle.getAttribute('data-percent');
-        circle.style.setProperty('--percent', percent * 3.6);
-    });
-    function copyToClipboard(text) {
-            navigator.clipboard.writeText(text).then(() => {
-                alert(`${text} copied to clipboard!`);
-            }).catch(err => {
-                console.error('Failed to copy text: ', err);
-            });
-        }
 
-    window.addEventListener("scroll", () => {
-        const sections = document.querySelectorAll("section");
-        const navLinks = document.querySelectorAll("nav a");
-
-        let currentSection = "";
-
-        sections.forEach(section => {
-            const sectionTop = section.offsetTop - 100; // Offset to account for header
-            const sectionHeight = section.offsetHeight;
-            if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
-                currentSection = section.getAttribute("id");
-            }
-        });
-
-        navLinks.forEach(link => {
-            link.classList.remove("active");
-            if (link.getAttribute("href").substring(1) === currentSection) {
-                link.classList.add("active");
-            }
-        });
-    });
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
